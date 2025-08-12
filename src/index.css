@@ -1,0 +1,8 @@
+:root {
+  --bg-color: #191919;
+  --text-color: #fff;
+
+  background-color: var(--bg-color);
+  font-family: Poppins, sans-serif;
+  color: var(--text-color);
+}
