@@ -1,6 +1,7 @@
 :root {
   --bg-color: #191919;
   --text-color: #fff;
+  --hover-color: #13B0F5;
 
   background-color: var(--bg-color);
   font-family: Poppins, sans-serif;
