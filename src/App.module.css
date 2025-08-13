@@ -39,15 +39,17 @@
     color: transparent;
 }
 
-.tech_stack {
+.tech_stack h1, h2 {
     text-align: center;
-    font-size: 0.8rem;
-} & h2 {
+}
+
+.tech_stack h2 {
     font-weight: 100;
 }
 
 .tech_logos {
     text-align: center;
+    margin: 5rem 0 0 0;
 }
 
 .tech_logos img {
@@ -59,4 +61,11 @@
 .projects {
     text-align: center;
     margin: 10rem 0 10rem 0;
+}
+
+.project_cards {
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

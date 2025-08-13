@@ -3,6 +3,7 @@
 :root {
   --bg-color: #191919;
   --text-color: #fff;
+  --secondary-text-color: yellow;
   --hover-color: #13B0F5;
   --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 

@@ -1,5 +1,6 @@
 import styles from './App.module.css';
 import Header from './components/Header/Header';
+import ProjectCard from './components/ProjectCard/ProjectCard';
 
 function App() {
   return (
@@ -37,6 +38,14 @@ function App() {
           <div className={styles.projects}>
             <h1>Projects</h1>
             <h2>Things I've built so far</h2>
+            <div className={styles.project_cards}>
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+            </div>
           </div>
         </div>
       </div>
