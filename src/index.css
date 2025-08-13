@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 :root {
   --bg-color: #191919;
   --text-color: #fff;
   --hover-color: #13B0F5;
+  --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 
   background-color: var(--bg-color);
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: var(--text-color);
 }
