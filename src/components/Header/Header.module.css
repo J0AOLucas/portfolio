@@ -1,0 +1,27 @@
+.nav_bar {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2.5rem;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.nav_list li:hover {
+    color: var(--hover-color);
+    transition: all 0.3s ease;
+}
+
+.social_media {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+} & img {
+    width: 1.8rem;
+    height: 1.8rem;
+}
