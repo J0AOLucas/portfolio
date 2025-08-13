@@ -9,7 +9,7 @@ function Header() {
                 <ul className={styles.nav_list}>
                     <li>Home</li>
                     <li>About</li>
-                    <li>Tech Stach</li>
+                    <li>Tech Stack</li>
                     <li>Projects</li>
                     <li>Contact</li>
                 </ul>
