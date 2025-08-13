@@ -9,12 +9,12 @@
     color: var(--text-primary);
     min-height: 100vh;
     padding: 2rem;
-    margin-top: 10rem;
 }
 
 .top_page {
     display: flex;
     justify-content: space-between;
+    margin: 10rem 0 10rem 0;
 }
 
 .top_page img {
@@ -37,4 +37,26 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+}
+
+.tech_stack {
+    text-align: center;
+    font-size: 0.8rem;
+} & h2 {
+    font-weight: 100;
+}
+
+.tech_logos {
+    text-align: center;
+}
+
+.tech_logos img {
+    width: 5rem;
+    height: 5rem;
+    padding: 1.5rem;
+}
+
+.projects {
+    text-align: center;
+    margin: 10rem 0 10rem 0;
 }
