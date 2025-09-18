@@ -193,14 +193,6 @@ function App() {
               <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
             </div>
           </div>
-          <div id="contact" className={styles.contact}>
-            <h1>Get In Touch</h1>
-            <h2>Let's work together</h2>
-            <div className={styles.contact_content}>
-              <p>lucasrpg.silva@gmail.com</p>
-              <p>(208) 948-7861</p>
-            </div>
-          </div>
         </div>
       </div>
     </div>

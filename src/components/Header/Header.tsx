@@ -37,7 +37,6 @@ function Header() {
                     <li><button onClick={() => scrollToSection('tech')}>Tech Stack</button></li>
                     <li><button onClick={() => scrollToSection('career')}>Career</button></li>
                     <li><button onClick={() => scrollToSection('projects')}>Projects</button></li>
-                    <li><button onClick={() => scrollToSection('contact')}>Contact</button></li>
                 </ul>
                 
                 <div className={styles.social_media}>
