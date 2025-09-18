@@ -15,24 +15,24 @@ function App() {
               I build the future
             </h1>
           </div>
-          <img src="./src/assets/images/jl_image.JPG" alt="Joao Lucas" />
+          <img src={new URL('./assets/images/jl_image.JPG', import.meta.url).toString()} alt="Joao Lucas" />
         </div>
         <div id="tech" className={styles.tech_stack}>
           <h1>My Tech Stack</h1>
           <h2>Technologies I've been working with recently</h2>
           <div className={styles.tech_logos}>
-            <img src="./src/assets/icons/html-logo.svg" alt="html logo" />
-            <img src="./src/assets/icons/css-logo.svg" alt="css logo" />
-            <img src="./src/assets/icons/js-logo.svg" alt="js logo" />
-            <img src="./src/assets/icons/react-logo.svg" alt="react logo" />
-            <img src="./src/assets/icons/ruby-logo.svg" alt="ruby logo" />
-            <img src="./src/assets/icons/python-logo.svg" alt="python logo" />
+            <img src={new URL('./assets/icons/html-logo.svg', import.meta.url).toString()} alt="html logo" />
+            <img src={new URL('./assets/icons/css-logo.svg', import.meta.url).toString()} alt="css logo" />
+            <img src={new URL('./assets/icons/js-logo.svg', import.meta.url).toString()} alt="js logo" />
+            <img src={new URL('./assets/icons/react-logo.svg', import.meta.url).toString()} alt="react logo" />
+            <img src={new URL('./assets/icons/ruby-logo.svg', import.meta.url).toString()} alt="ruby logo" />
+            <img src={new URL('./assets/icons/python-logo.svg', import.meta.url).toString()} alt="python logo" />
             <div>
-              <img src="./src/assets/icons/tailwind-logo.svg" alt="tailwind logo" />
-              <img src="./src/assets/icons/git-logo.svg" alt="git logo" />
-              <img src="./src/assets/icons/spring-logo.svg" alt="spring logo" />
-              <img src="./src/assets/icons/postgres-logo.svg" alt="postgres logo" />
-              <img src="./src/assets/icons/github-logo.svg" alt="github logo" />
+              <img src={new URL('./assets/icons/tailwind-logo.svg', import.meta.url).toString()} alt="tailwind logo" />
+              <img src={new URL('./assets/icons/git-logo.svg', import.meta.url).toString()} alt="git logo" />
+              <img src={new URL('./assets/icons/spring-logo.svg', import.meta.url).toString()} alt="spring logo" />
+              <img src={new URL('./assets/icons/postgres-logo.svg', import.meta.url).toString()} alt="postgres logo" />
+              <img src={new URL('./assets/icons/github-logo.svg', import.meta.url).toString()} alt="github logo" />
             </div>
           </div>
           <div id="about" className={styles.tech_stack}>
@@ -185,12 +185,12 @@ function App() {
             <h1>Projects</h1>
             <h2>Things I've built so far</h2>
             <div className={styles.project_cards}>
-              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
-              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
-              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
-              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
-              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
-              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image="./src/assets/images/project-background.png" link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image={new URL('./assets/images/project-background.png', import.meta.url).toString()} link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image={new URL('./assets/images/project-background.png', import.meta.url).toString()} link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image={new URL('./assets/images/project-background.png', import.meta.url).toString()} link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image={new URL('./assets/images/project-background.png', import.meta.url).toString()} link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image={new URL('./assets/images/project-background.png', import.meta.url).toString()} link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
+              <ProjectCard title="Water System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos." image={new URL('./assets/images/project-background.png', import.meta.url).toString()} link="https://www.google.com" live_link="https://www.google.com" technologies="React, Tailwind, TypeScript" />
             </div>
           </div>
         </div>

@@ -21,11 +21,11 @@ function ProjectCard({ title, description, image, link, live_link, technologies 
                 <h5>Technologies: <span>{technologies}</span></h5>
                 <div className={styles.project_card_link}>
                     <div>
-                        <img src="./src/assets/icons/chain.svg" alt="Link Icon" />
+                        <img src={new URL('../../assets/icons/chain.svg', import.meta.url).toString()} alt="Link Icon" />
                         <a href={live_link} target="_blank" rel="noopener noreferrer">Live Preview</a>
                     </div>
                     <div>
-                        <img src="./src/assets/icons/github-small.svg" alt="Link Icon" />
+                        <img src={new URL('../../assets/icons/github-small.svg', import.meta.url).toString()} alt="Link Icon" />
                         <a href={link} target="_blank" rel="noopener noreferrer">View Code</a>
                     </div>
                 </div>
