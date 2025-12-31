@@ -12,7 +12,7 @@ function App() {
             <h1 className={styles.title_text}>Hi,<br />
                 My name is <br />
               <span className={styles.name}>João Lucas</span><br />
-              I build the future
+              I write code. I solve problems.
             </h1>
           </div>
           <img src="./src/assets/images/jl_image.JPG" alt="Joao Lucas" />
