@@ -12,10 +12,10 @@ function App() {
             <h1 className={styles.title_text}>Hi,<br />
                 My name is <br />
               <span className={styles.name}>João Lucas</span><br />
-              I build the future
+              I write code.<br/>I solve problems.
             </h1>
           </div>
-          <img src={new URL('./assets/images/jl_image.JPG', import.meta.url).toString()} alt="Joao Lucas" />
+          <img src={new URL('./assets/images/profile_photo.jpeg', import.meta.url).toString()} alt="Joao Lucas" />
         </div>
         <div id="tech" className={styles.tech_stack}>
           <h1>My Tech Stack</h1>
@@ -28,6 +28,7 @@ function App() {
             <img src={new URL('./assets/icons/ruby-logo.svg', import.meta.url).toString()} alt="ruby logo" />
             <img src={new URL('./assets/icons/python-logo.svg', import.meta.url).toString()} alt="python logo" />
             <div>
+              <img src={new URL('./assets/icons/c_sharp.png', import.meta.url).toString()} alt="C Sharp logo" />
               <img src={new URL('./assets/icons/tailwind-logo.svg', import.meta.url).toString()} alt="tailwind logo" />
               <img src={new URL('./assets/icons/git-logo.svg', import.meta.url).toString()} alt="git logo" />
               <img src={new URL('./assets/icons/spring-logo.svg', import.meta.url).toString()} alt="spring logo" />
@@ -148,7 +149,7 @@ function App() {
               <div className={styles.timeline_item}>
                 <div className={styles.timeline_content}>
                   <div className={styles.timeline_date}>March 2022 - December 2022 (10 months)</div>
-                  <div className={styles.timeline_company}>60 Minutes Laundry</div>
+                  <div className={styles.timeline_company}>Ikli Tecnologia</div>
                   <div className={styles.timeline_position}>Junior No-Code Developer</div>
                   <div className={styles.timeline_location}>João Pessoa, Paraíba, Brazil</div>
                   <div className={styles.timeline_description}>
