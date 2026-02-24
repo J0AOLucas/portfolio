@@ -43,7 +43,7 @@ function Header() {
                     <a href="https://www.linkedin.com/in/joaolucasbyui/" target="_blank" rel="noopener noreferrer">
                         <img src={LinkedinLogo} alt="Linkedin Logo" />
                     </a>
-                    <a href="https://github.com/J0AOLucas" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/JoaoLucasLab" target="_blank" rel="noopener noreferrer">
                         <img src={GitLogo} alt="GitHub logo" />
                     </a>
                 </div>
