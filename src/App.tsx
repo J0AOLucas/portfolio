@@ -41,7 +41,7 @@ function App() {
             <div className={styles.about_me_text}>
               <p>I'm João Lucas, a Computer Science student at Brigham Young University - Idaho, passionate about solving real-world problems through technology.</p>
               
-              <p>I'm currently working as a Web Analytics Programmer at BYU-I, where I combine technical skills and analytical thinking to improve digital experiences and data-driven decisions.</p>
+              <p>I'm currently working as a Software Engineer Intern at The Church of Jesus Christ of Latter-day Saints, where I design and build full-stack internal applications to improve operational workflows.</p>
               
               <p>Previously, I worked as a Software Development Supervisor at Ikli Tecnologia in Brazil, where I led a team of four developers and was responsible for creating, maintaining, and integrating APIs using Ruby. I also coordinated professional development for the team and drove innovation within the company's systems.</p>
               
@@ -92,7 +92,7 @@ function App() {
 
               <div className={styles.timeline_item}>
                 <div className={styles.timeline_content}>
-                  <div className={styles.timeline_date}>April 2025 - Present (6 months)</div>
+                  <div className={styles.timeline_date}>April 2025 - April 2026 (1 year)</div>
                   <div className={styles.timeline_company}>Brigham Young University - Idaho</div>
                   <div className={styles.timeline_position}>Web Analytics Integration Programmer</div>
                   <div className={styles.timeline_location}>Idaho, United States</div>
