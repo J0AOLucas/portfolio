@@ -58,6 +58,40 @@ function App() {
             <div className={styles.timeline}>
               <div className={styles.timeline_item}>
                 <div className={styles.timeline_content}>
+                  <div className={styles.timeline_date}>June 2026 - Present (2 months)</div>
+                  <div className={styles.timeline_company}>ALPFA (Association of Latino Professionals For America)</div>
+                  <div className={styles.timeline_position}>ALPFA Fellow & Scholarship Recipient</div>
+                  <div className={styles.timeline_location}>United States</div>
+                  <div className={styles.timeline_description}>
+                    <p>Selected as an ALPFA Fellow and scholarship recipient among thousands of applicants nationwide.</p>
+                    <ul>
+                      <li>Recognized for academic excellence and leadership potential in technology</li>
+                      <li>Received a $5,000 scholarship and a $2,500 fellowship award</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className={styles.timeline_item}>
+                <div className={styles.timeline_content}>
+                  <div className={styles.timeline_date}>April 2026 - Present (4 months)</div>
+                  <div className={styles.timeline_company}>The Church of Jesus Christ of Latter-day Saints</div>
+                  <div className={styles.timeline_position}>Software Engineer Intern</div>
+                  <div className={styles.timeline_location}>Idaho, USA</div>
+                  <div className={styles.timeline_description}>
+                    <p>Designed and built full-stack internal applications, collaborating with stakeholders in Agile teams to improve operational workflows.</p>
+                    <ul>
+                      <li>Designed and built full-stack internal applications using Kotlin, Ktor, Tailwind CSS, and REST APIs</li>
+                      <li>Collaborated with stakeholders in Agile teams, increasing team productivity by 15%</li>
+                      <li>Developed automated and manual test suites that improved software quality and reduced regressions</li>
+                      <li>Increased release confidence before production deployments through stronger test coverage</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className={styles.timeline_item}>
+                <div className={styles.timeline_content}>
                   <div className={styles.timeline_date}>April 2025 - Present (6 months)</div>
                   <div className={styles.timeline_company}>Brigham Young University - Idaho</div>
                   <div className={styles.timeline_position}>Web Analytics Integration Programmer</div>
